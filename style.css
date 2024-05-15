@@ -1,0 +1,135 @@
+body,h1 h2 h3{
+    font-family: "League Spartan", sans-serif;
+}
+.text{
+    width: 300px;
+}
+.text h1{
+    position: relative;
+    text-transform: capitalize;
+}
+.text h1::before{
+content: "";
+position: absolute;
+width: 50px;
+height:2px;
+top: 90%;
+left: 0;
+background: #5074ed;
+}
+.write{
+    width: 500px;
+    margin: auto;
+}
+.write h1{
+    text-transform: capitalize;
+    position: relative;
+}
+.write h1::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: 90%;
+    left: 200px;
+    background: #5074ed;
+}
+.photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+img{
+    width: 100%;
+
+}
+.hover-img h5{
+
+margin-left: 20px;
+line-height: 50px;
+}
+
+.img-div{
+    position: relative;
+}
+.hover-img{
+    width: 250px;
+    margin: auto;
+    background: #5074ed;
+    border-radius: 30px;
+  
+  
+}
+ .hover-img{
+    content: "";
+    position: absolute;
+    bottom:5%;
+    right: 0;
+    left: 30%;
+    margin: auto;
+    transform: translateY(80px);
+    opacity: 0;
+    visibility: hidden;
+transition: 1s;
+
+
+
+}
+.img-div:hover .hover-img{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-10px);
+}
+.h{
+    color: #5074ed;
+}
+.img-section-div h1{
+    text-transform: capitalize;
+}
+.footer-section{
+    background: #111;
+    padding: 20px 0;
+}
+.pics img{
+    width: 150px;
+    padding: 30px 0;
+}
+.pics p{
+    color: #fff;
+}
+.ok h2{
+    color: #fff;
+ 
+    position: relative;
+    margin-left: 35px;
+    
+}
+.ok h2::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    top: 0;
+    left: 0;
+
+    background: #5074ed;
+    margin-right: 30px;
+  
+}
+.ok ul{
+    text-align: left;
+    margin-left: 0;
+}
+.ok ul li{
+    list-style: none;
+    margin-left: 0;
+}
+.ok ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+   
+}
